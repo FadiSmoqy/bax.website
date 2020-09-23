@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+.header {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, 
+    rgb(0, 0, 0) 0%,
+    rgb(0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.664) 69%,
+    rgb(0, 0, 0) 94%,
+    rgb(0, 0, 0) 100%,
+    rgb(0, 0, 0) 100%) , url('bax.img/pexels-pixabay-163403.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-bar {
+    width: 100vw;
+    height: 6vh;
+    background: rgba(0, 0, 0, 0.3);
+    position: relative;
+    padding-left: 40%;
+    position: fixed;
+}
+.nav-bar-logo {
+    position: absolute;
+    top:15%;
+    left: 40px;
+}
+.nav-bar-links {
+    width: 100vw;
+    font-size: 15px; 
+    padding: 15px 15px;
+}
+.nav-bar-links a{
+    padding: 2vw;
+    padding: 20px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+.links:hover{
+    color:tomato;
+}
+.sp{
+    color: tomato;
+}
+.nav-bar-icons{
+    position: absolute;
+    top:15%;
+    left:85%;
+    font-size: 21px;
+}
+.nav-bar-icons i{
+    padding: 0 10px;
+}
+
+.header-box{
+    text-align: center;
+    position: relative;
+    
+}
+.eef{
+    height: 100vh;
+    width: 100vw;
+
+    position: absolute;
+    left: 0;
+    top: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    height: 75%;
+    width: 85%;
+    border: 5px solid white ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.imggs{
+    height: calc(50% - 20px);
+    width: 300px;
+    background: red;
+    flex-wrap: wrap;
+    flex-basis: auto;
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.i1{
+    background-image: url(bax.img/kentischer1.jpeg);  
+}
+.i2{
+    background-image: url(bax.img/kentischer2.jpeg);}
+.i3{
+    background-image: url(bax.img/kentischer3.jpeg);
+}
+.i4{
+    background-image: url(bax.img/kentischer4.jpeg);
+}
+.i5{
+    background-image: url(bax.img/keppi.jpeg);
+}
+.i6{
+    background-image: url(bax.img/Screenshot_20200406-183008.jpg);
+}
